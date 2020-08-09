@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e92ad5a-51d4-4b3a-a573-350289410e8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IPersistence/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPersistence/target/IPersistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/IPersistence-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPersistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPersistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPersistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/IPersistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/io/test/IPersistenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/io/test/IPersistenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IPersistence_test-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lagou/io/test/IPersistenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lagou/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-    </list>
+    <list default="true" id="9e92ad5a-51d4-4b3a-a573-350289410e8e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +44,13 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWorkSpace\IPersistence_test\IPersistence\src\main\java\com\lagou" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.lagou.config" />
       <recent name="com.lagou.sqlSession" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaWorkSpace\IPersistence_test" />
+      <recent name="D:\IdeaWorkSpace\IPersistence_test\IPersistence\src\main\java\com\lagou" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,8 +104,16 @@
       <workItem from="1595518818884" duration="1465000" />
       <workItem from="1595553878624" duration="320000" />
       <workItem from="1596850964738" duration="6493000" />
-      <workItem from="1596937504738" duration="6293000" />
+      <workItem from="1596937504738" duration="6551000" />
     </task>
+    <task id="LOCAL-00001" summary="上传自定义持久层框架jar包">
+      <created>1596969429334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596969429334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +129,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="上传自定义持久层框架jar包" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传自定义持久层框架jar包" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
