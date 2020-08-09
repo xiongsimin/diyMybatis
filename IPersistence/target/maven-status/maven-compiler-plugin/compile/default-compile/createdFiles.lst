@@ -1,0 +1,6 @@
+com\lagou\pojo\Configuration.class
+com\lagou\config\XMLConfigBuilder.class
+com\lagou\io\Resources.class
+com\lagou\pojo\MappedStatement.class
+com\lagou\sqlSession\SqlSessionFactoryBuilder.class
+com\lagou\sqlSession\SqlSessionFactory.class
