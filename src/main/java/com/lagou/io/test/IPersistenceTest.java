@@ -35,6 +35,5 @@ public class IPersistenceTest {
         for (User user2 : users) {
             System.out.println(user2);
         }
-
     }
 }
