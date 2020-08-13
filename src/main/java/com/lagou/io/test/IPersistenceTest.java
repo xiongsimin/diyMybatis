@@ -1,5 +1,6 @@
 package com.lagou.io.test;
 
+import com.lagou.dao.IUserDao;
 import com.lagou.io.Resources;
 import com.lagou.pojo.User;
 import com.lagou.sqlSession.SqlSession;
@@ -29,11 +30,20 @@ public class IPersistenceTest {
         User user = new User();
         user.setId(1);
         user.setName("张三");
-        User user1 = sqlSession.selectOne("user.selectOne", user);
+        /*User user1 = sqlSession.selectOne("user.selectOne", user);
         System.out.println(user1);
         List<User> users = sqlSession.selectList("user.selectList");
         for (User user2 : users) {
             System.out.println(user2);
+        }*/
+        IUserDao userDao = sqlSession.getMapper(IUserDao.class);
+        //代理对象调用接口中任意方法，都会执行invoke方法
+        List<User> all = userDao.findAll();
+        /*User user1 = userDao.findByCondition(user);
+        System.out.println(user1);*/
+        for (User u : all) {
+            System.out.println(u);
         }
+
     }
 }
